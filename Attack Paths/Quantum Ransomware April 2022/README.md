@@ -34,4 +34,4 @@ A note was found indicating data exfiltration, but no evidence of this alleged e
 |Tactics ID|Tactic Description|Matching Tests|
 |-|-|-|
 |T1003.001|OS Credential Dumping: LSASS Memory||
-|T1018|Remote System Discovery|[T1018-1](../../Atomics/T1018%20-%20Remote%20System%20Discovery/README.md#T1018-1-Remote-System-Discovery-Using-NET-VIEW), [T1018-2](../../Atomics/T1018%20-%20Remote%20System%20Discovery/README.md)|
+|T1018|Remote System Discovery|[T1018-1](../../Atomics/T1018%20-%20Remote%20System%20Discovery/#t1018-1-remote-system-discovery-using-net-view), [T1018-2](../../Atomics/T1018%20-%20Remote%20System%20Discovery/T1018%20-%20Remote%20System%20Discovery#t1018-2-remote-system-discovery-using-net-group)|
