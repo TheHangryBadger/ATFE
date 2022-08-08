@@ -58,7 +58,7 @@ For the command to execute successfully the following must all be TRUE:
 2. Enter the command "net group “Domain Computers” /domain" and hit enter.
 3. If the terminal prints out a list of domains, computers and or resources shared by this computer, the test is completed successfully. 
 
-<img src="T1018-2.png" height="250px">
+<img src="T1018-2.png" height="200px">
 
 ### Network Traffic
 During initial testing, network traffic appeared to show a spike in SMB2, DCERPC and SAMR protocol traffic, all of which was sent between the Client and the Domain Controller.
