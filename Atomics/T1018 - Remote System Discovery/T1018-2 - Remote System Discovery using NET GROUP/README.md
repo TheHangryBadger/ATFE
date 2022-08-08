@@ -9,15 +9,17 @@
 
 Using the native net.exe we detect which domains and computers the client computer is associated with.
 
-### Prerequisities
-For the command to execute successfully the following must all be TRUE:
-- The client is Domain Joined.
-- The client is logged in as a regular user.
-
 ### Test Procedure
-1. Open command prompt as a regular user.
-2. Enter the command "net group “Domain Computers” /domain" and hit enter.
-3. If the terminal prints out a list of domains, computers and or resources shared by this computer, the test is completed successfully. 
+|Prerequisites|
+|-|
+|The client must be Domain Joined.|
+|The client must be logged in as a regular user.|
+
+|#|Instruction|
+|-|-|
+|1|Open command prompt as a regular user.|
+|2|Enter the command "net group “Domain Computers” /domain" and hit enter.|
+|3|If the terminal prints out a list of domains, computers and or resources shared by this computer, the test is completed successfully.|
 
 <img src="T1018-2.png" height="200px">
 

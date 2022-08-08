@@ -9,15 +9,17 @@
 
 Using the native arp.exe we detect which machines the client has stored in its ARP table.
 
-### Prerequisities
-For the command to execute successfully the following must all be TRUE:
-- The client is logged in as a regular user.
-- The client is connected to a network OR the client has been connected to a network and has generated an ARP table.
-
 ### Test Procedure
-1. Open command prompt as a regular user.
-2. Enter the command "arp -a" and hit enter.
-3. If the terminal prints out a list of physical addresses and associated IP addresses, the test is completed successfully. 
+|Prerequisites|
+|-|
+|The client must be logged in as a regular user.|
+|The client must be connected to a network OR the client have been connected to a network and have generated an ARP table.|
+
+|#|Instruction|
+|-|-|
+|1|Open command prompt as a regular user.|
+|2|Enter the command "arp -a" and hit enter.|
+|3|If the terminal prints out a list of physical addresses and associated IP addresses, the test is completed successfully.|
 
 <img src="T1018-3.png" height="200px">
 

@@ -10,17 +10,20 @@
 Using the native net.exe we detect which domains and computers the client computer is associated with.
 This test can also be performed on newer versions of windows, however it requires substantial configuration changes, which no regular user should ever perform.
 
-### Prerequisities
-For the command to execute successfully the following must all be TRUE:
-- The "Function Discovery Provider Host" service is running on the client.
-- The "Computer Browser" service is running on the client.
-- The client is Domain Joined.
-- The client is logged in as a regular user.
-
 ### Test Procedure
-1. Open command prompt as a regular user.
-2. Enter the command "net view" and hit enter.
-3. If the terminal prints out a list of domains, computers and or resources shared by the client, the test has been completed successfully.
+|Prerequisites|
+|-|
+|The "Function Discovery Provider Host" service must be running on the client.|
+|The "Computer Browser" service must be running on the client.|
+|The client must be Domain Joined.|
+|The client is logged in as a regular user.|
+
+|#|Instruction|
+|-|-|
+|1|Open command prompt as a regular user.|
+|2|Enter the command "net view", hit enter, and wait for the results.|
+|3|If the terminal prints out a list of domains, computers and or resources shared by the client, the test has been completed successfully.|
+
 <img src="T1018-1.png" height="160px">
 ### Network Traffic
 During initial testing, network traffic was not immediately determinable from packet captures.
