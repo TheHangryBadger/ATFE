@@ -1,5 +1,4 @@
 # T1018 - Remote System Discovery
-This is a test filler.
 |||
 |-|-|
 |**Mitre Att&ck Tactic**|T1018 Discovery|
@@ -12,6 +11,7 @@ This is a test filler.
 |**Test ID**|T1018-1|
 |**Testable Client Platforms**|Windows Server 2000, 2003, 2008, 2008 R2, 2012, 2016<br>Windows XP, Vista, 7, 8|
 |**Required Tools**|S0039 "NET" (native to windows)|
+|**Target**|Client|
 |**Last Updated**|2022-08-08|
 
 Using the native net.exe we detect which domains and computers the client computer is associated with.
@@ -44,6 +44,7 @@ https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server
 |**Test ID**|T1018-2|
 |**Testable Client Platforms**|Windows Server 2000, 2003, 2008, 2008 R2, 2012, 2016<br>Windows XP, Vista, 7, 8, 10, 11|
 |**Required Tools**|S0039 "NET" (native to windows)|
+|**Target**|Client|
 |**Last Updated**|2022-08-08|
 
 Using the native net.exe we detect which domains and computers the client computer is associated with.
@@ -82,6 +83,7 @@ https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server
 |**Test ID**|T1018-3|
 |**Testable Client Platforms**|Windows Server 2008, 2008 R2, 2012, 2016<br>Windows 7, 8, 10, 11|
 |**Required Tools**|"ARP" (native to windows)|
+|**Target**|Client|
 |**Last Updated**|2022-08-08|
 
 Using the native arp.exe we detect which machines the client has stored in its ARP table.
