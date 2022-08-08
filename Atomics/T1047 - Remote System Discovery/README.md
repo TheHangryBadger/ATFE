@@ -36,7 +36,15 @@ For the command to execute successfully the following must all be TRUE:
 <img src="T1047-4.png" height="160px">
 
 ### Network Traffic
-During initial testing, network traffic was not immediately determinable from packet captures.
+The test was performed using a windows 10 virtual machine as client and another as the remote target. Both were domain joined through another VM and networked using a PFSense VM. All of which was part of Saga Labs.
+
+During testing network traffic showed a spike in network traffic between the client and target, with some traffic between the client and domain controller. The spike contains a segment of network traffic showing DCERPC, ISystemActivator and IRemUnknown2 packets.  
+
+The initial connection shows a bind between the client and the target until a DCERPC packet is sent to the remote host stating AUTH3: call_id and another stating Request: call_id. The response appears to be a TCP ACK packet from the target to the client, and followed by the target verifying the auth information using RPC_NETLOGON protocol. 
+
+<img src="T1047-4-N-Wireshark.png" height="280px">
+
+Following the response from this RPC_NETLOGON verification, the client and target communicate using TCP, DCERPC and IRemUnknown2 for less than half a second after which the connection is terminated. 
 
 ### Resources
 Microsoft Documentation for the query command: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc788125(v=ws.11) 
