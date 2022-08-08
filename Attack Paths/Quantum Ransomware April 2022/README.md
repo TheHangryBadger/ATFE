@@ -20,7 +20,7 @@ The threat actor then RDP’d to several servers on the network over the span of
 A note was found indicating data exfiltration, but no evidence of this alleged exfiltration was found. 
 
 ## Relevant ID's
-||||
+|Mitre Software ID|Software Descriptioon|Software Availability|
 |-|-|-|
 |S0029|PS Exec|Sysinternals|
 |S0039|NET|Native to Windows|
@@ -34,4 +34,21 @@ A note was found indicating data exfiltration, but no evidence of this alleged e
 |Tactics ID|Tactic Description|Matching Tests|
 |-|-|-|
 |T1003.001|OS Credential Dumping: LSASS Memory||
-|T1018|Remote System Discovery|[T1018-1](../../Atomics/T1018 - Remote System Discovery#t1018-1-remote-system-discovery-using-net-view), [T1018-2](../../Atomics/T1018 - Remote System Discovery#t1018-2-remote-system-discovery-using-net-group)|
+|T1018|Remote System Discovery|T1018-1, T1018-2|
+|T1021.002|Remote Services: SMB/Windows Admin Shares||
+|T1047|Windows Management Instrumentation|T1047-4|
+|T1053.005|Scheduled Task/Job: Scheduled Task||
+|T1055|Process Injection||
+|T1055.012|Process Injection: process Hollowing||
+|T1059.001|Command and Script Interpreter: Powershell||
+|T1059.003|Command and Script Interpreter: Windows Command Shell||
+|T1071.001|Web Protocols||
+|T1082|System Information Discovery||
+|T1083|File and Directory Discovery||
+|T1087.002|Account Discovery: Domain Account||
+|T1204|User Execution||
+|T1218.011|Signed Binary Proxy Execution: Rundll32||
+|T1482|Domain Trust Discovery||
+|T1486|Data Encrypted for Impact||
+|T1518.001|Software Discovery: Security Software Discovery||
+|T1614.001|System Location Discovery: System Language Discovery||
