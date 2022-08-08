@@ -28,7 +28,7 @@ For the command to execute successfully the following must all be TRUE:
 1. Open command prompt as a regular user.
 2. Enter the command "net view" and hit enter.
 3. If the terminal prints out a list of domains, computers and or resources shared by the client, the test has been completed successfully.
-<img src="T1018-1.png" style="max-height:160px;">
+<img src="T1018-1.png" height="160px">
 ### Network Traffic
 During initial testing, network traffic was not immediately determinable from packet captures.
 
@@ -58,14 +58,14 @@ For the command to execute successfully the following must all be TRUE:
 2. Enter the command "net group “Domain Computers” /domain" and hit enter.
 3. If the terminal prints out a list of domains, computers and or resources shared by this computer, the test is completed successfully. 
 
-<img src="T1018-2.png" style="max-height:250px;margin:0 auto 0 auto;display:block;">
+<img src="T1018-2.png" height="250px">
 
 ### Network Traffic
 During initial testing, network traffic appeared to show a spike in SMB2, DCERPC and SAMR protocol traffic, all of which was sent between the Client and the Domain Controller.
 
-<img src="T1018-2-N-hosts.png" style="max-height:250px;margin:0 auto 0 auto;display:block;">
-<img src="T1018-2-N-stats.png" style="max-height:250px;margin:0 auto 0 auto;display:block;">
-<img src="T1018-2-N-protocols.png" style="max-height:250px;margin:0 auto 0 auto;display:block;">
+<img src="T1018-2-N-hosts.png">
+<img src="T1018-2-N-stats.png">
+<img src="T1018-2-N-protocols.png">
 
 The traffic contains requests from the client and responses from the domain controller using SMB2 and then binds to it using DCERPC.
 From there the client enumeartes first the domains and then the domain group "Domain Computers" using the SAMR protocol. Once the enumeration has been completed, each connection is closed in turn.
@@ -96,7 +96,7 @@ For the command to execute successfully the following must all be TRUE:
 2. Enter the command "arp -a" and hit enter.
 3. If the terminal prints out a list of physical addresses and associated IP addresses, the test is completed successfully. 
 
-<img src="T1018-3.png" style="max-height:200px;margin:0 auto 0 auto;display:block;">
+<img src="T1018-3.png" height="200px">
 
 ### Network Traffic
 During initial testing, no network traffic was detected during command execution. 
