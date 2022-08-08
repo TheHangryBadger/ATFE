@@ -15,7 +15,7 @@ This is a test filler.
 |**Last Updated**|2022-08-08|
 
 Using the native net.exe we detect which domains and computers the client computer is associated with.
-This test can also be performed on newer versions of windows, however it requires substantial configuration changes, which no **sane** user should ever perform.
+This test can also be performed on newer versions of windows, however it requires substantial configuration changes, which no regular user should ever perform.
 
 ### Prerequisities
 For the command to execute successfully the following must all be TRUE:
