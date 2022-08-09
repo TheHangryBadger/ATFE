@@ -1,7 +1,7 @@
 # T1047 - Windows Management Instrumentation
 |||
 |-|-|
-|**Mitre Att&ck Tactic**|T1047 Execution|
+|**Mitre Att&ck Tactic**|Execution|
 
 |Test ID|Test Title|
 |-|-|

@@ -1,7 +1,7 @@
 # T1018 - Remote System Discovery
 |||
 |-|-|
-|**Mitre Att&ck Tactic**|T1018 Discovery|
+|**Mitre Att&ck Tactic**|Discovery|
 
 |Test ID|Test Title|
 |-|-|
