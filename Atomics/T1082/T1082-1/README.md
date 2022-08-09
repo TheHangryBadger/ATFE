@@ -18,9 +18,10 @@ Using the native systeminfo command we discover information about the local syst
 |-|-|
 |1|Open command prompt as a regular user.|
 |2|Enter the command "systeminfo", hit enter, and wait for the results.|
-|3|If the terminal prints out a list of domains, computers and or resources shared by the client, the test has been completed successfully.|
+|3|If the terminal prints out a list of information pertaining to this particular client, the test is completed successfully.|
 
-<!--TODO: ADD IMAGE     <img src="T1018-1.png" height="160px"> -->
+<img src="T1082-1.png">
+
 ### Network Traffic
 During initial testing, network traffic was not immediately determinable from packet captures.
 
