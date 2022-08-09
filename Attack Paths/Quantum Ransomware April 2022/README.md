@@ -31,24 +31,24 @@ A note was found indicating data exfiltration, but no evidence of this alleged e
 |S0552|AdFind|Joeware.net|
 ||Query|Native to Windows|
 
-|Tactics ID|Tactic Description|Matching Tests|
+|Mitre Tenchnique ID|Technique Description|Matching Tests|
 |-|-|-|
-|T1003.001|OS Credential Dumping: LSASS Memory||
-|T1018|Remote System Discovery|[T1018-1](../../Atomics/T1018/T1018-1/), [T1018-2](../../Atomics/T1018/T1018-2/)|
-|T1021.002|Remote Services: SMB/Windows Admin Shares||
-|T1047|Windows Management Instrumentation|[T1047-4](../../Atomics/T1047/T1047-4/)|
-|T1053.005|Scheduled Task/Job: Scheduled Task||
-|T1055|Process Injection||
-|T1055.012|Process Injection: process Hollowing||
-|T1059.001|Command and Script Interpreter: Powershell||
-|T1059.003|Command and Script Interpreter: Windows Command Shell||
-|T1071.001|Web Protocols||
-|T1082|System Information Discovery||
-|T1083|File and Directory Discovery||
-|T1087.002|Account Discovery: Domain Account||
-|T1204|User Execution||
-|T1218.011|Signed Binary Proxy Execution: Rundll32||
-|T1482|Domain Trust Discovery||
-|T1486|Data Encrypted for Impact||
-|T1518.001|Software Discovery: Security Software Discovery||
-|T1614.001|System Location Discovery: System Language Discovery|[T1614.001-2](../../Atomics/T1614.001/T1614.001-2/)|
+|[T1003.001](https://attack.mitre.org/techniques/T1003/001/)|OS Credential Dumping: LSASS Memory||
+|[T1018](https://attack.mitre.org/techniques/T1018/)|Remote System Discovery|[T1018-1](../../Atomics/T1018/T1018-1/), [T1018-2](../../Atomics/T1018/T1018-2/)|
+|[T1021.002](https://attack.mitre.org/techniques/T1021/002/)|Remote Services: SMB/Windows Admin Shares||
+|[T1047](https://attack.mitre.org/techniques/T1047/)|Windows Management Instrumentation|[T1047-4](../../Atomics/T1047/T1047-4/)|
+|[T1053.005](https://attack.mitre.org/techniques/T1053/005/)|Scheduled Task/Job: Scheduled Task||
+|[T1055](https://attack.mitre.org/techniques/T1055/)|Process Injection||
+|[T1055.012](https://attack.mitre.org/techniques/T1055/012/)|Process Injection: process Hollowing||
+|[T1059.001](https://attack.mitre.org/techniques/T1059/001/)|Command and Script Interpreter: Powershell||
+|[T1059.003](https://attack.mitre.org/techniques/T1059.003/)|Command and Script Interpreter: Windows Command Shell||
+|[T1071.001](https://attack.mitre.org/techniques/T1071/001/)|Web Protocols||
+|[T1082](https://attack.mitre.org/techniques/T1082/)|System Information Discovery||
+|[T1083](https://attack.mitre.org/techniques/T1083/)|File and Directory Discovery||
+|[T1087.002](https://attack.mitre.org/techniques/T1087/002/)|Account Discovery: Domain Account||
+|[T1204](https://attack.mitre.org/techniques/T1204/)|User Execution||
+|[T1218.011](https://attack.mitre.org/techniques/T1218/011/)|Signed Binary Proxy Execution: Rundll32||
+|[T1482](https://attack.mitre.org/techniques/T1482/)|Domain Trust Discovery||
+|[T1486](https://attack.mitre.org/techniques/T1486/)|Data Encrypted for Impact||
+|[T1518.001](https://attack.mitre.org/techniques/T1518/001/)|Software Discovery: Security Software Discovery||
+|[T1614.001](https://attack.mitre.org/techniques/T1614/001/)|System Location Discovery: System Language Discovery|[T1614.001-2](../../Atomics/T1614.001/T1614.001-2/)|
