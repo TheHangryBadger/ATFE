@@ -18,10 +18,11 @@ Using the CHCP command we can get a numerical ID which can be looked up to ident
 |-|-|
 |1|Open command prompt as a regular user.|
 |2|Enter the command “chcp” and hit enter.|
-|3|Take the ID and match it with microsofts Code Page Identifiers list found here: https://docs.microsoft.com/en-us/windows/win32/intl/code-page-identifiers|
+|3|Take the ID and match it with microsofts Code Page Identifiers list found here: https://docs.microsoft.com/en-us/windows/win32/intl/code-page-identifiers |
 |4|If the identified information matches the client system, the test has been completed successfully.|
 
-<!-- TODO ADD IMAGE -->
+![](./T1016.001-2a.png)<br>
+![](./T1016.001-2b.png)
 
 ### Network Traffic
 During testing, no network traffic was identified which could be attributed to the test.

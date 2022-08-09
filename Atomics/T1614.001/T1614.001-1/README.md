@@ -20,7 +20,7 @@ Using the reg query, we can retrieve language information from registry about th
 |2|Enter the command “reg query HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\Language” and hit enter.|
 |3|If the terminal prints out a list of information detailing the install langauge region and ID and the InstallLanguageFallback ID's, the test has been completed successfully.|
 
-<!-- TODO ADD IMAGE -->
+![](./T1614.001-1.png)
 
 ### Network Traffic
 During testing, no network traffic was identified which could be attributed to the test.
