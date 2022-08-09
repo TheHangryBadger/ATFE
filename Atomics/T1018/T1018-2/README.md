@@ -34,5 +34,4 @@ The traffic contains requests from the client and responses from the domain cont
 From there the client enumeartes first the domains and then the domain group "Domain Computers" using the SAMR protocol. Once the enumeration has been completed, each connection is closed in turn.
 
 ### Resources
-Microsoft Documentation for the NET GROUP command: 
-https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc754051(v=ws.11)
+[Microsoft Documentation for the NET GROUP command](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc754051(v=ws.11))

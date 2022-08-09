@@ -27,5 +27,4 @@ Using the native arp.exe we detect which machines the client has stored in its A
 During initial testing, no network traffic was detected during command execution. 
 
 ### Resources
-Microsoft Documentation for the ARP command: 
-https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc754761(v=ws.11) 
+[Microsoft Documentation for the ARP command](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc754761(v=ws.11))

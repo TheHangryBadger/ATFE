@@ -41,4 +41,4 @@ The initial connection shows a bind between the client and the target until a DC
 Following the response from this RPC_NETLOGON verification, the client and target communicate using TCP, DCERPC and IRemUnknown2 for less than half a second after which the connection is terminated. 
 
 ### Resources
-Microsoft Documentation for the query command: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc788125(v=ws.11) 
+[Microsoft Documentation for the query command](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc788125(v=ws.11))

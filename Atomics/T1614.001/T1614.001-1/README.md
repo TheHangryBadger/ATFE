@@ -26,4 +26,4 @@ Using the reg query, we can retrieve language information from registry about th
 During testing, no network traffic was identified which could be attributed to the test.
 
 ### Resources
-Microsoft Documentation for the reg query command: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc742028(v=ws.11) 
+[Microsoft Documentation for the reg query command](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc742028(v=ws.11))

@@ -30,5 +30,4 @@ This test can also be performed on newer versions of windows, however it require
 During initial testing, network traffic was not immediately determinable from packet captures.
 
 ### Resources
-Microsoft Documentation for the Net view command: 
-https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh875576(v=ws.11) 
+[Microsoft Documentation for the Net view command](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh875576(v=ws.11)) 

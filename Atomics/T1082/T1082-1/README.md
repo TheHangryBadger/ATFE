@@ -26,5 +26,4 @@ Using the native systeminfo command we discover information about the local syst
 During initial testing, network traffic was not immediately determinable from packet captures.
 
 ### Resources
-Microsoft Documentation for the systeminfo command: 
-https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771190(v=ws.11) 
+[Microsoft Documentation for the systeminfo command](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771190(v=ws.11))
