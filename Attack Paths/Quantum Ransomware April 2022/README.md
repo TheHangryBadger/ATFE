@@ -17,7 +17,7 @@ Afterwards, Cobalt Strike dumped the LSASS memory and confirmed cracked credenti
 
 The threat actor then RDP’d to several servers on the network over the span of an hour, and then distributed the ransomware using the C$ share folder. This ransomware was then executed on each host using WMI and PsExec. 
 
-A note was found indicating data exfiltration, but no evidence of this alleged exfiltration was found. 
+A note was found indicating data exfiltration, but no evidence of this alleged exfiltration was found.
 
 ## Relevant ID's
 |Mitre Software ID|Software Descriptioon|Software Availability|
@@ -51,4 +51,4 @@ A note was found indicating data exfiltration, but no evidence of this alleged e
 |T1482|Domain Trust Discovery||
 |T1486|Data Encrypted for Impact||
 |T1518.001|Software Discovery: Security Software Discovery||
-|T1614.001|System Location Discovery: System Language Discovery||
+|T1614.001|System Location Discovery: System Language Discovery|[T1614.001-2](../../Atomics/T1614.001%20-%20System%20Language%20Discovery/T1614.001-2%20-%20Discovery%20System%20Language%20by%20Registry%20Query%20copy/)|
