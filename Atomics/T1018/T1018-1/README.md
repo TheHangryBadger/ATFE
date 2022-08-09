@@ -25,6 +25,7 @@ This test can also be performed on newer versions of windows, however it require
 |3|If the terminal prints out a list of domains, computers and or resources shared by the client, the test has been completed successfully.|
 
 <img src="T1018-1.png" height="160px">
+
 ### Network Traffic
 During initial testing, network traffic was not immediately determinable from packet captures.
 
