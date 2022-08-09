@@ -3,7 +3,7 @@
 |-|-|
 |**Test ID**|T1018-3|
 |**Testable Client Platforms**|Windows Server 2008, 2008 R2, 2012, 2016<br>Windows 7, 8, 10, 11|
-|**Required Tools**|"ARP" (native to windows)|
+|**Required Tools**|["ARP" (native to windows)](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc754761(v=ws.11))|
 |**Target**|Client|
 |**Last Updated**|2022-08-08|
 

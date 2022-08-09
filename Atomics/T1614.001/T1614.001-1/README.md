@@ -3,7 +3,7 @@
 |-|-|
 |**Test ID**|T1614.001-1|
 |**Testable Client Platforms**|Windows Server 2003, 2008, 2008 R2, 2012<br>Windows XP, Vista, 7, 8, 10, 11|
-|**Required Tools**|[S0075 "REG" (Native to Windows)](https://attack.mitre.org/software/S0075/)|
+|**Required Tools**|[S0075](https://attack.mitre.org/software/S0075/) ["REG" (Native to Windows)](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc742028(v=ws.11))|
 |**Target**|Client|
 |**Last Updated**|2022-08-09|
 

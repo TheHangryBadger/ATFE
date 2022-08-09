@@ -3,7 +3,7 @@
 |-|-|
 |**Test ID**|T1614.001-2|
 |**Testable Client Platforms**|Windows Server 2008, 2008 R2, 2012<br>Windows Vista, 7, 8, 10, 11|
-|**Required Tools**|"CHCP" (Native to Windows)|
+|**Required Tools**|["CHCP" (Native to Windows)](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc733037(v=ws.11))|
 |**Target**|Client|
 |**Last Updated**|2022-08-09|
 

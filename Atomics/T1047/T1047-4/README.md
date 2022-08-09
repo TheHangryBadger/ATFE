@@ -3,7 +3,7 @@
 |-|-|
 |**Test ID**|T1047-4|
 |**Testable Client Platforms**|Windows Server 2003, 2008, 2008 R2, 2012<br>Windows 7, 8, 10, 11|
-|**Required Tools**|"WMIC" (Native to Windows)|
+|**Required Tools**|["WMIC" (Native to Windows)](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc788125(v=ws.11))|
 |**Target**|Remote Windows Host|
 |**Last Updated**|2022-08-08|
 
