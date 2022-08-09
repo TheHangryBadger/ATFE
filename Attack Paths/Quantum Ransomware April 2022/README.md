@@ -34,9 +34,9 @@ A note was found indicating data exfiltration, but no evidence of this alleged e
 |Tactics ID|Tactic Description|Matching Tests|
 |-|-|-|
 |T1003.001|OS Credential Dumping: LSASS Memory||
-|T1018|Remote System Discovery|[T1018-1](../../Atomics/T1018%20-%20Remote%20System%20Discovery/T1018-1%20-%20Remote%20System%20Discovery%20using%20NET%20VIEW/), [T1018-2](../../Atomics/T1018%20-%20Remote%20System%20Discovery/T1018-2%20-%20Remote%20System%20Discovery%20using%20NET%20GROUP/)|
+|T1018|Remote System Discovery|[T1018-1](../../Atomics/T1018/T1018-1/), [T1018-2](../../Atomics/T1018/T1018-2/)|
 |T1021.002|Remote Services: SMB/Windows Admin Shares||
-|T1047|Windows Management Instrumentation|[T1047-4](../../Atomics/T1047%20-%20Windows%20Management%20Instrumentation/T1047-4%20-%20Recon%20and%20Enum%20Services%20on%20Remote%20Host/)|
+|T1047|Windows Management Instrumentation|[T1047-4](../../Atomics/T1047/T1047-4/)|
 |T1053.005|Scheduled Task/Job: Scheduled Task||
 |T1055|Process Injection||
 |T1055.012|Process Injection: process Hollowing||
@@ -51,4 +51,4 @@ A note was found indicating data exfiltration, but no evidence of this alleged e
 |T1482|Domain Trust Discovery||
 |T1486|Data Encrypted for Impact||
 |T1518.001|Software Discovery: Security Software Discovery||
-|T1614.001|System Location Discovery: System Language Discovery|[T1614.001-2](../../Atomics/T1614.001%20-%20System%20Language%20Discovery/T1614.001-2%20-%20Discovery%20System%20Language%20by%20Registry%20Query%20copy/)|
+|T1614.001|System Location Discovery: System Language Discovery|[T1614.001-2](../../Atomics/T1614.001/T1614.001-2/)|
