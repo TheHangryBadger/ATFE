@@ -48,7 +48,7 @@ A note was found indicating data exfiltration, but no evidence of this alleged e
 |[T1087.002](https://attack.mitre.org/techniques/T1087/002/)|Account Discovery: Domain Account||
 |[T1204](https://attack.mitre.org/techniques/T1204/)|User Execution||
 |[T1218.011](https://attack.mitre.org/techniques/T1218/011/)|Signed Binary Proxy Execution: Rundll32||
-|[T1482](https://attack.mitre.org/techniques/T1482/)|Domain Trust Discovery||
+|[T1482](https://attack.mitre.org/techniques/T1482/)|Domain Trust Discovery|[T1482-2](../../Atomics/T1482/T1482-2/)|
 |[T1486](https://attack.mitre.org/techniques/T1486/)|Data Encrypted for Impact||
 |[T1518.001](https://attack.mitre.org/techniques/T1518/001/)|Software Discovery: Security Software Discovery||
 |[T1614.001](https://attack.mitre.org/techniques/T1614/001/)|System Location Discovery: System Language Discovery|[T1614.001-2](../../Atomics/T1614.001/T1614.001-2/)|
