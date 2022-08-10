@@ -25,7 +25,7 @@ Using the native nltest command we can obtain information about the domain, such
 ![](T1482-2.2.png)
 
 ### Network Traffic
-During initial testing, network traffic was not immediately determinable from packet captures.
+*Pending testing.*
 
 ### Resources
 [Microsoft Documentation for the nltest command](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc731935(v=ws.11))<br>
