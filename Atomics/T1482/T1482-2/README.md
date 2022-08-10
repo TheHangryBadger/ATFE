@@ -19,7 +19,7 @@ Using the native nltest command we can obtain information about the domain, such
 |#|Instruction|Expected Outcome|Image|
 |-|-|-|-|
 |1|Open command prompt as a regular user.|||
-|2|Enter the command "nltest /domnain_trusts", hit enter, and wait for the results.|A list of domain trusts is printed in command prompt.|![](T1482-2.2.png)|
+|2|Enter the command "nltest /domain_trusts", hit enter, and wait for the results.|A list of domain trusts is printed in command prompt.|![](T1482-2.2.png)|
 |3|If the terminal prints out a list of domain trusts, the test is completed successfully.|||
 
 ![](T1482-2.2.png)
