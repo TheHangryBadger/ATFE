@@ -8,7 +8,9 @@ When I've used the Red Canary Atomic Red Team testing framework I've had a few s
 - There is a general lack of information as to what is required for a test to run successfully, and descriptors on how we know the test worked.
 - Testers have previously wanted to be able to run a series of tests which have been used in previous attacks, so the tests better "simulate" what an attacker may choose to do.
 
-This project aims to expand upon some of these tests by providing the above information to each one as possible. The end goal is to provide information to testers about these tests so they understand not only what the test do, but may also gain insight into what events and detections may go off.
+This project aims to expand upon some of these tests by providing the above information to each one as possible. The end goal is to provide information to testers about these tests so they understand not only what the tests do, but may also gain insight into what events and detections may go off.
+
+Additionally the project also adds attacks as requests come in which specify a series of tests based on those attacks.
 
 ## How to use it?
 There are primarily two methods of using the atomic red teaming framework.
