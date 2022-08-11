@@ -5,7 +5,7 @@ Red Canary released some years ago, a framework to perform quick tests called "A
 When I've used the Red Canary Atomic Red Team testing framework I've had a few shortcomings making it extra challenging to do the work, despite the frameworks attempts at making it better. These shortcomings were most commonly:
 
 - There is a general lack of easy to access knowlege of the outcomes of each test, especially in terms of impact on network and local events being triggered. 
-- There is a general lack of information as to what is required for a test to run successfully.
+- There is a general lack of information as to what is required for a test to run successfully, and descriptors on how we know the test worked.
 - Testers have previously wanted to be able to run a series of tests which have been used in previous attacks, so the tests better "simulate" what an attacker may choose to do.
 
 This project aims to expand upon some of these tests by providing the above information to each one as possible. The end goal is to provide information to testers about these tests so they understand not only what the test do, but may also gain insight into what events and detections may go off.
